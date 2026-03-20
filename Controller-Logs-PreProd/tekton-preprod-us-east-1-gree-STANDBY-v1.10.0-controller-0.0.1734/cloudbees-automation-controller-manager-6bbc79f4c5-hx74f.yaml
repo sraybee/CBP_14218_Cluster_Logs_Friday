@@ -1,0 +1,21 @@
+2026-03-20T13:50:03Z	INFO	Registering a validating webhook	{"GVK": "/v1, Kind=Pod", "path": "/limit-job-pod-concurrency"}
+2026-03-20T13:50:03Z	INFO	controller-runtime.webhook	Registering webhook	{"path": "/limit-job-pod-concurrency"}
+2026-03-20T13:50:03Z	INFO	setup	starting manager
+2026-03-20T13:50:03Z	INFO	controller-runtime.metrics	Starting metrics server
+2026-03-20T13:50:03Z	INFO	controller-runtime.webhook	Starting webhook server
+2026-03-20T13:50:03Z	INFO	setup	disabling http/2
+2026-03-20T13:50:03Z	INFO	controller-runtime.metrics	Serving metrics server	{"bindAddress": "127.0.0.1:8080", "secure": false}
+2026-03-20T13:50:03Z	INFO	starting server	{"name": "health probe", "addr": "[::]:8081"}
+I0320 13:50:03.406354       1 leaderelection.go:257] attempting to acquire leader lease cloudbees-automation-controller/e8158d1c.guide-rails.io...
+2026-03-20T13:50:03Z	INFO	controller-runtime.certwatcher	Updated current TLS certificate	{"cert": "/tmp/k8s-webhook-server/serving-certs/tls.crt", "key": "/tmp/k8s-webhook-server/serving-certs/tls.key"}
+2026-03-20T13:50:03Z	INFO	controller-runtime.webhook	Serving webhook server	{"host": "", "port": 9443}
+2026-03-20T13:50:03Z	INFO	controller-runtime.certwatcher	Starting certificate poll+watcher	{"cert": "/tmp/k8s-webhook-server/serving-certs/tls.crt", "key": "/tmp/k8s-webhook-server/serving-certs/tls.key", "interval": "10s"}
+2026-03-20T15:33:09Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "0b2018d9-07f9-4519-a6a6-bdf727f4635e", "runAttempt": "1", "job": "build", "name": "run-sche25c1f55e0dd3a3757e1e83c47e4c328eb08e8b0e1be40227e0b-pod"}
+2026-03-20T15:35:12Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "1aa03416-a603-475b-b05c-9ae7a1a59ceb", "runAttempt": "1", "job": "build", "name": "run-sche815ae0a096333ffd767f4b22121db8edf22c0e0becd93b5af47-pod"}
+2026-03-20T15:35:12Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "fb5742ce-5938-44b0-be78-16f1ec23e4fa", "runAttempt": "1", "job": "build", "name": "run-sche11ca015bdd70afe6c1264cd6bc7d98eb540e7ab5b45605eaf18-pod"}
+2026-03-20T15:36:12Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "27b13bf7-d597-48af-9b80-b8ced7b0cd2f", "runAttempt": "1", "job": "build", "name": "run-schee27b99fcf532ce626842bd16d37395dc9245e19b93c6dd093b5-pod"}
+2026-03-20T15:37:09Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "f5142452-f942-4480-86db-176c864bab52", "runAttempt": "1", "job": "build", "name": "run-sche742b6c4700360877d8e3f0a2f6abc457cf432221038e2972190-pod"}
+I0320 13:50:03.506995       1 main.go:186] Valid token audiences: 
+I0320 13:50:03.507093       1 main.go:316] Generating self signed cert as no cert is provided
+I0320 13:50:04.670578       1 main.go:366] Starting TCP socket on 0.0.0.0:8443
+I0320 13:50:04.670911       1 main.go:373] Listening securely on 0.0.0.0:8443

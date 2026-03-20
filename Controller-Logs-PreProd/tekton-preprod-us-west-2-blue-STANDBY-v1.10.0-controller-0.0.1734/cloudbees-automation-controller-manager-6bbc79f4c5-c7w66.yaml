@@ -1,0 +1,25 @@
+2026-03-20T13:51:39Z	INFO	Registering a validating webhook	{"GVK": "/v1, Kind=Pod", "path": "/limit-job-pod-concurrency"}
+2026-03-20T13:51:39Z	INFO	controller-runtime.webhook	Registering webhook	{"path": "/limit-job-pod-concurrency"}
+2026-03-20T13:51:39Z	INFO	setup	starting manager
+2026-03-20T13:51:39Z	INFO	controller-runtime.metrics	Starting metrics server
+2026-03-20T13:51:39Z	INFO	controller-runtime.metrics	Serving metrics server	{"bindAddress": "127.0.0.1:8080", "secure": false}
+2026-03-20T13:51:39Z	INFO	starting server	{"name": "health probe", "addr": "[::]:8081"}
+2026-03-20T13:51:39Z	INFO	controller-runtime.webhook	Starting webhook server
+2026-03-20T13:51:39Z	INFO	setup	disabling http/2
+2026-03-20T13:51:39Z	INFO	controller-runtime.certwatcher	Updated current TLS certificate	{"cert": "/tmp/k8s-webhook-server/serving-certs/tls.crt", "key": "/tmp/k8s-webhook-server/serving-certs/tls.key"}
+2026-03-20T13:51:39Z	INFO	controller-runtime.webhook	Serving webhook server	{"host": "", "port": 9443}
+2026-03-20T13:51:39Z	INFO	controller-runtime.certwatcher	Starting certificate poll+watcher	{"cert": "/tmp/k8s-webhook-server/serving-certs/tls.crt", "key": "/tmp/k8s-webhook-server/serving-certs/tls.key", "interval": "10s"}
+I0320 13:51:39.659591       1 leaderelection.go:257] attempting to acquire leader lease cloudbees-automation-controller/e8158d1c.guide-rails.io...
+2026-03-20T14:33:11Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "b674ab19-c40d-4b0b-a716-e2530f3492ef", "runAttempt": "1", "job": "build", "name": "run-sche8adfcba01b75c0cffb996ac327f659711250c52b18c2c28075b-pod"}
+2026-03-20T14:34:12Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "386657e3-aca1-4dc4-bf56-ef8d55a0cb4a", "runAttempt": "1", "job": "build", "name": "run-sche26ddd3f750fd0f443f4a1c7da733c65f07b9747d63b99ac3cd6-pod"}
+2026-03-20T14:36:15Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "1f272dc5-09ca-4dee-9d14-f79072e2ec9d", "runAttempt": "1", "job": "build", "name": "run-sche9ad9a5f980f30722b6bff506aa875260abb98443fbf927901d0-pod"}
+2026-03-20T14:37:14Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "0a0b5211-f32a-4b7b-87e6-6cda0c8bce27", "runAttempt": "1", "job": "build", "name": "run-sched593a07cead9088e21bd1e73db1aaa15feb055f1f00634c2773-pod"}
+2026-03-20T15:33:18Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "27f852ac-9ac6-4d06-a041-a59e491d8ebf", "runAttempt": "1", "job": "build", "name": "run-sche9555779a970d1a01fe16eb21afe0cc7b8776470d2de91662c34-pod"}
+2026-03-20T15:34:11Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "2be56e31-24b0-46b0-b67d-0516a654dfd3", "runAttempt": "1", "job": "build", "name": "run-sche11d617ec729fa74261d8eb1070c5537e67d7fcad66539da3ff1-pod"}
+2026-03-20T15:34:12Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "06d269a0-3704-45a4-a663-524c2235f801", "runAttempt": "1", "job": "build", "name": "run-scheeac55e1c369077feb73567d337de70a6fceb41985fc865fbfec-pod"}
+2026-03-20T15:36:12Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "c9566e87-2a05-4b52-a387-3c06a144f655", "runAttempt": "1", "job": "build", "name": "run-sche4ade46a481c4e74059d7cb687d68838c80b5727ceac5e924f58-pod"}
+2026-03-20T15:37:15Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "3ec8c6ec-eb8c-4f4a-9098-a7b2726bf1a8", "runAttempt": "1", "job": "build", "name": "run-sche4fce561587124bd925d60d9f1f9bcd0248fa8f557e2452f1922-pod"}
+I0320 13:51:39.789954       1 main.go:186] Valid token audiences: 
+I0320 13:51:39.790033       1 main.go:316] Generating self signed cert as no cert is provided
+I0320 13:51:40.610535       1 main.go:366] Starting TCP socket on 0.0.0.0:8443
+I0320 13:51:40.610851       1 main.go:373] Listening securely on 0.0.0.0:8443

@@ -1,0 +1,35 @@
+2026-03-20T09:24:28Z	INFO	Registering a validating webhook	{"GVK": "/v1, Kind=Pod", "path": "/limit-job-pod-concurrency"}
+2026-03-20T09:24:28Z	INFO	controller-runtime.webhook	Registering webhook	{"path": "/limit-job-pod-concurrency"}
+2026-03-20T09:24:28Z	INFO	setup	starting manager
+2026-03-20T09:24:28Z	INFO	controller-runtime.metrics	Starting metrics server
+2026-03-20T09:24:28Z	INFO	starting server	{"name": "health probe", "addr": "[::]:8081"}
+2026-03-20T09:24:28Z	INFO	controller-runtime.metrics	Serving metrics server	{"bindAddress": "127.0.0.1:8080", "secure": false}
+2026-03-20T09:24:28Z	INFO	controller-runtime.webhook	Starting webhook server
+2026-03-20T09:24:28Z	INFO	setup	disabling http/2
+I0320 09:24:28.548081       1 leaderelection.go:257] attempting to acquire leader lease cloudbees-automation-controller/e8158d1c.guide-rails.io...
+2026-03-20T09:24:28Z	INFO	controller-runtime.certwatcher	Updated current TLS certificate	{"cert": "/tmp/k8s-webhook-server/serving-certs/tls.crt", "key": "/tmp/k8s-webhook-server/serving-certs/tls.key"}
+2026-03-20T09:24:28Z	INFO	controller-runtime.webhook	Serving webhook server	{"host": "", "port": 9443}
+2026-03-20T09:24:28Z	INFO	controller-runtime.certwatcher	Starting certificate poll+watcher	{"cert": "/tmp/k8s-webhook-server/serving-certs/tls.crt", "key": "/tmp/k8s-webhook-server/serving-certs/tls.key", "interval": "10s"}
+2026-03-20T09:33:17Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "e06a8150-77a9-4178-908c-bd53aded9018", "runAttempt": "1", "job": "build", "name": "run-sche00c54c2baac5c6397c3b1c792cbd468bf140e6c242826f53d46-pod"}
+2026-03-20T09:34:14Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "dac875d1-f8a1-49ff-9eac-3978ea07fb71", "runAttempt": "1", "job": "build", "name": "run-sche710971d685a7bdcb464df54c4a1f401b8d8bff9ffbb194d2172-pod"}
+2026-03-20T09:35:15Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "c1358c00-9a16-4b0d-b7b1-d1d8a4fc45ef", "runAttempt": "1", "job": "build", "name": "run-sche38bbec25fa8c880c5eb1cf234dd51d5e7f2269e0899bba2a947-pod"}
+2026-03-20T09:36:08Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "6ec33b16-b84c-4f7e-9794-6f935992244c", "runAttempt": "1", "job": "build", "name": "run-scheee24264eb55ae20aa0dc70b3d0ed03580dabaa85a8b315a917c-pod"}
+2026-03-20T09:37:08Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "df3ea27b-8d4c-4d7a-93c4-a0839ed99044", "runAttempt": "1", "job": "build", "name": "run-schec7bfe51065ddd140450b072868e1204de023c587065055c8ba7-pod"}
+2026-03-20T09:37:09Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "498c0dbe-9c9c-4bde-8902-3d3cd28e7ea8", "runAttempt": "1", "job": "build", "name": "run-sche90ffbcfb4482d7ca9ad1ce9d301029e5dc7edef892768bf83b5-pod"}
+2026-03-20T11:33:09Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "07cc58a7-a8f4-4d00-b94a-0dd2ece09bd6", "runAttempt": "1", "job": "build", "name": "run-sche4d4d13ad27d2ad6100b8f30adbef50bd79312ba57c2937780e0-pod"}
+2026-03-20T11:34:09Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "c94fd8be-2563-48c2-96e2-5ee3b69caccb", "runAttempt": "1", "job": "build", "name": "run-schea92966925eca328836014ff4d2ad41c837141fe229f5c2e8073-pod"}
+2026-03-20T11:35:07Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "45a05284-2285-460c-9ae6-284331f25903", "runAttempt": "1", "job": "build", "name": "run-sche29ebbb38a1dafaa8a59500ab1d7042a8b3ede9b5887f8fce117-pod"}
+2026-03-20T11:35:08Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "09020209-4d8b-46c4-ba98-d123cc358f1b", "runAttempt": "1", "job": "build", "name": "run-schefa6c71f7ccd7ca3f65a4d651da807e899056facc765bd896ac6-pod"}
+2026-03-20T11:36:09Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "8dcb4682-9c03-4cd5-be41-e3fcef8e6273", "runAttempt": "1", "job": "build", "name": "run-sche589a518a5233984206e506e95987bbbf74e9dce0c4fdadb5e4a-pod"}
+2026-03-20T11:36:10Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "31da7fbb-43d6-42a9-8dc1-e5fd4a2c9338", "runAttempt": "1", "job": "build", "name": "run-sche15fccb2f13523fc6f8cb250fbf3b27fcc9e340df8e61a978254-pod"}
+2026-03-20T12:33:09Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "da7860fa-bd92-4bfe-9181-4c6ec901f1e6", "runAttempt": "1", "job": "build", "name": "run-schef19fd8958f9487afea9f26d2cbf64323570f51264b45ea1390c-pod"}
+2026-03-20T12:34:09Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "cb183e2c-241a-4e54-bd0e-a5081d935e07", "runAttempt": "1", "job": "build", "name": "run-sched1b5d23540570207a45815c657b427f7ff3cbf833995d9ab44b-pod"}
+2026-03-20T12:36:10Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "d3b71d01-8471-4e7f-b5b2-fcdc4a509514", "runAttempt": "1", "job": "build", "name": "run-sche26be7d1c851ad172b7ed0a862a4e58148d20b9f1d2ab5588a9c-pod"}
+2026-03-20T12:36:11Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "968a971d-98f1-4e4d-bf35-101c8be06787", "runAttempt": "1", "job": "build", "name": "run-sche09f823812e0fea3593c4f2b6c764fa3083dbe46308fd831e0e4-pod"}
+2026-03-20T12:37:08Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "0df5ac14-10cc-4867-812e-d45fcf8e1bee", "runAttempt": "1", "job": "build", "name": "run-sche58e1bc490dc235c4523cd4bd36d5c5a920c316308bf630921c7-pod"}
+2026-03-20T13:33:08Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "abd791a6-db7c-439d-8749-8705149b53ad", "runAttempt": "1", "job": "build", "name": "run-sche2519f01ae6ebe10fc887112b7de3bc80d205013bd75d702712f-pod"}
+2026-03-20T13:33:09Z	INFO	pod-resource	constraining job concurrency	{"orgID": "f4831f1c-cf2c-45bb-4262-ce97f35ca145", "runID": "27295801-464c-4812-b7bf-2ac12a93cb36", "runAttempt": "1", "job": "build", "name": "run-sche3f3d67d0d347c1837b81bbcb0768b207ec3186979c7647fca63-pod"}
+I0320 09:24:28.683385       1 main.go:186] Valid token audiences: 
+I0320 09:24:28.683477       1 main.go:316] Generating self signed cert as no cert is provided
+I0320 09:24:29.568381       1 main.go:366] Starting TCP socket on 0.0.0.0:8443
+I0320 09:24:29.568712       1 main.go:373] Listening securely on 0.0.0.0:8443
